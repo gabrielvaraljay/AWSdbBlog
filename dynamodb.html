@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amazon DynamoDB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style-post.css">
+        <link rel="stylesheet" type="text/css" href="header.css">
+        <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+
+<body>
+    <header>
+        <h1>AWS Database Services</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="left-column">
+            <article>
+                <h2>Amazon DynamoDB</h2>
+                <p class="date-author">Posted on February 20, 2023 by Gabriel Varaljay</p>
+                <img src="images/dynamodb.jpg" alt="Image of the blog post" />
+                <p class="blog-post">Amazon DynamoDB is a fully managed NoSQL database that provides low-latency, high-performance access to unstructured
+                data. It is a good option for businesses that need a flexible database for their web and mobile applications. The
+                pricing for Amazon DynamoDB ranges from $0.00013 to $13.431 per hour, depending on the provisioned capacity and region.
+                </p>
+            </article>
+        </div>
+
+        <aside class="right">
+            <div id="right-column"></div>
+        </aside>
+        </main>
+        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(function () {
+                $("#right-column").load("right.html");
+            });
+        </script>
+
+    <footer>
+        <p>&copy; 2023 My Blog about AWS Database Services</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+#right-column {
+    width: 100%;
+    float: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+aside {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
