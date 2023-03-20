@@ -29,3 +29,7 @@ The website is easy to use and navigate. Simply click on the links in the naviga
 ## Contributing
 
 This project is part of a Udacity Nanodegree program, and no contributions will be accepted.
+
+## License
+
+This project is licensed under the MIT License.
