@@ -3,10 +3,7 @@
 
 <head>
     <title>AWS Database Services</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="header.css">
-    <link rel="stylesheet" type="text/css" href="right.css">
-    <link rel="stylesheet" type="text/css" href="footer.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
@@ -15,8 +12,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="html/about.html">About</a></li>
             </ul>
         </nav>
     </header>
@@ -24,53 +20,49 @@
     <main>
         <section>
             <article>
-                <a href="rds.html"><img src="images/rds.jpg" alt="Amazon RDS logo"></a>
-                <h2><a href="rds.html">Amazon RDS</a></h2>
+                <figure>
+                    <a href="html/rds.html"><img src="images/rds.jpg" alt="Amazon RDS logo"></a>
+                    <figcaption>Amazon RDS logo</figcaption>
+                </figure>
+                <h2><a href="html/rds.html">Amazon RDS</a></h2>
                 <p class="date-author">Posted on February 10, 2023 by Gabriel Varaljay</p>
                 <p class="tagline">Amazon RDS is a managed relational database service that supports several database engines, including MySQL, MariaDB,
                 PostgreSQL, Oracle, and Microsoft SQL Server.</p>
-                
             </article>
 
             <article>
-                <a href="aurora.html"><img src="images/aurora.jpg" alt="Amazon Aurora logo"></a>
-                <h2><a href="aurora.html">Amazon Aurora</a></h2>
+                <figure>
+                    <a href="html/aurora.html"><img src="images/aurora.jpg" alt="Amazon Aurora logo"></a>
+                    <figcaption>Amazon Aurora logo</figcaption>
+                </figure>
+                <h2><a href="html/aurora.html">Amazon Aurora</a></h2>
                 <p class="date-author">Posted on February 15, 2023 by Gabriel Varaljay</p>
                 <p class="tagline">Amazon Aurora is a MySQL and PostgreSQL-compatible relational database with high performance and availability.</p>
-
             </article>
         </section>
 
         <section>
             <article>
-                <a href="dynamodb.html"><img src="images/dynamodb.jpg" alt="Amazon DynamoDB logo"></a>
-                <h2><a href="dynamodb.html">Amazon DynamoDB</a></h2>
+                <figure>
+                    <a href="html/dynamodb.html"><img src="images/dynamodb.jpg" alt="Amazon DynamoDB logo"></a>
+                    <figcaption>Amazon DynamoDB logo</figcaption>
+                </figure>
+                <h2><a href="html/dynamodb.html">Amazon DynamoDB</a></h2>
                 <p class="date-author">Posted on February 20, 2023 by Gabriel Varaljay</p>
-                <p class="tagline">Amazon DynamoDB is a fully managed NoSQL database that provides low-latency, high-performance access to unstructured
-                data.</p>
-                
+                <p class="tagline">Amazon DynamoDB is a fully managed NoSQL database that provides low-latency, high-performance access to unstructured data.</p>
             </article>
 
             <article>
-                <a href="neptune.html"><img src="images/neptune.jpg" alt="Amazon Neptune logo"></a>
-                <h2><a href="neptune.html">Amazon Neptune</a></h2>
+                <figure>
+                    <a href="html/neptune.html"><img src="images/neptune.jpg" alt="Amazon Neptune logo"></a>
+                    <figcaption>Amazon Neptune logo</figcaption>
+                </figure>
+                <h2><a href="html/neptune.html">Amazon Neptune</a></h2>
                 <p class="date-author">Posted on March 1, 2023 by Gabriel Varaljay</p>
                 <p class="tagline">Amazon Neptune is a fully managed graph database that provides fast querying and processing of graph data.</p>
-                
             </article>
         </section>
-
-    <section class="right">
-        <div id="right-column"></div>
-    </section>
     </main>
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(function () {
-            $("#right-column").load("right.html");
-        });
-    </script>
 
     <footer>
         <p>&copy; 2023 My Blog about AWS Database Services</p>
