@@ -115,15 +115,21 @@ nav a:hover {
 
 /* Main */
 main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
     padding: 20px;
     margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+  
 section {
-    flex: 1;
+    flex: auto;
     margin: 0;
     padding: 0;
 }
@@ -138,8 +144,6 @@ article {
 
 /* About */
 aside {
-    width: 25%;
-    float: right;
     padding: 20px;
     box-sizing: border-box;
     background-color: #f8f8f8;
@@ -156,4 +160,21 @@ aside h2 {
     letter-spacing: 2px;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
+}
+
+.read-more {
+    text-align: center;
+}
+
+.read-more a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: yellow;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more a:hover {
+    background-color: var(--secondary-color);
 }
